@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Demo</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./Ayurveda/assets/css/style.css">
+</head>
+
+<body id="top">
+
+  <!-- PRELOADER -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text"></p>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">About</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="symptom.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Symptom Checker</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <!-- ✅ Overlay restored for mobile menu -->
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <article>
+
+      <!-- HERO SECTION -->
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <!-- Turmeric -->
+          <li class="slider-item active" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./Ayurveda/photos/turmeric-5286228_1920.jpg" width="1880" height="950" alt="Turmeric" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Golden Healer: Turmeric
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+               &nbsp;It boosts immunity and has strong anti-inflammatory and antioxidant properties. Ayurveda has used it for over 4,000 years to heal wounds, improve digestion, and purify the blood.
+            </p>
+          </li>
+
+          <!-- Cinnamon -->
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./Ayurveda/photos/cinnamon-2992648_1920.jpg" width="1880" height="950" alt="Cinnamon" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Cinnamon – The Sweet Fire of Wellness
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              A warm, aromatic spice known to balance Vata & Kapha, aid digestion, improve circulation, and naturally boost immunity.
+            </p>
+          </li>
+
+          <!-- Tulsi -->
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./Ayurveda/photos/leaves-6042983_1920.jpg" width="1880" height="950" alt="Tulsi" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Tulsi – The Sacred Protector
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Boosts immunity, calms the mind, purifies the body, and supports respiratory health.
+            </p>
+          </li>
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="text-center">
+        <h2>About</h2>
+        <p>Learn about the healing power of Ayurveda and natural remedies.</p>
+      </section>
+
+      <!-- SYMPTOM CHECKER -->
+      <section id="symptom" class="text-center">
+        <h2>Symptom Checker</h2>
+        <p>Use our tool to check symptoms and explore natural remedies.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="text-center">
+        <h2>Contact</h2>
+        <p>Reach us for more details about Ayurveda and wellness practices.</p>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- BACK TO TOP -->
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- JS -->
+  <script src="./Ayurveda/assets/js/script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
