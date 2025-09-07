@@ -1,6 +1,6 @@
 /* ======================= Background ======================= */
 body {
-  background: url("/public_html/Ayurveda/photos/Symptom_Background.jpg") no-repeat center center fixed;
+  background: url("/Ayurveda/photos/Symptom_Background.jpg") no-repeat center center fixed;
   background-size: cover;
   position: relative;
   min-height: 100vh;
@@ -119,3 +119,4 @@ button.btn-success:hover {
     width: 90% !important;
   }
 }
+
